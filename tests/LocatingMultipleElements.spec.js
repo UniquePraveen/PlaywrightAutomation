@@ -28,7 +28,5 @@ test('LocatingMultipleWebElements', async ({ page }) => {
     }
 
 
-
-
 })
 
