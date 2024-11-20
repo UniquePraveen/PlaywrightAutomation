@@ -40,17 +40,16 @@ test('Assertions', async ({ page }) => {
 
     await login_button.click()
 
-    /*
-    const infoButton = await page.locator('//*[@id="app"]/div[1]/div[1]/aside/nav/div[2]/ul/li[6]/a');
+    await page.waitForTimeout(5000)
 
-    await page.waitForSelector(infoButton);
+    const infoButton = await page.locator('//*[@id="app"]/div[1]/div[1]/aside/nav/div[2]/ul/li[6]/a');
 
     infoButton.click()
 
     const options = await page.locator('//*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[2]/div/form/div[1]/div/div[1]/div/div[2]/div/div/div[1]');
 
     await expect(options).toHaveCount(9);
-*/
+
 
 
 
