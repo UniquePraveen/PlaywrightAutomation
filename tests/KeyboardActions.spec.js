@@ -2,7 +2,7 @@ import { table } from "console";
 import { test, expect } from "playwright/test";
 
 test("KeyboardActions", async ({ page }) => {
-  await page.goto("https://gotranscript.com/text-compare");
+  await page.goto("https://gotranscript.com/text-com");
   await page.fill(
     "//textarea[placeholder='Paste one version of the text here.']",
     "Welcome to Automation!"
